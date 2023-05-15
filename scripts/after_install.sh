@@ -2,7 +2,7 @@
 
 #_Change_Working_Directory
 cd /home/ubuntu
-source /venv/bin/activate
+source venv/bin/activate
 # install requirements
 pip install -r requirements.txt
 
