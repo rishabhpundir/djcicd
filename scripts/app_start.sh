@@ -4,5 +4,5 @@
 cd /home/ubuntu
 
 # start the server
-service supervisor status
+service supervisor restart
 service nginx restart
