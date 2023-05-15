@@ -2,7 +2,7 @@
 
 #_Change_Working_Directory
 cd /home/ubuntu
-deactivate
+
 # start the server
-service gunicorn restart
+service supervisor status
 service nginx restart
